@@ -45,8 +45,8 @@ namespace PreWork1
 
                 Console.WriteLine("_________\n");
                 Console.WriteLine($"US dollar {user3.ToString("c", CultureInfo.CreateSpecificCulture("en-US"))}");// third number printed out
-                Console.WriteLine($"Swedish {user3.ToString("c", CultureInfo.CreateSpecificCulture("sv - SE"))}");
-                Console.WriteLine($"Yen {user3.ToString("c", CultureInfo.CreateSpecificCulture("th - TH"))}");
+                Console.WriteLine($"Swedish {user3.ToString("c", CultureInfo.CreateSpecificCulture("sv-SE"))}");
+                Console.WriteLine($"Yen {user3.ToString("c", CultureInfo.CreateSpecificCulture("th-TH"))}");
                 Console.WriteLine($"US dollar {user3.ToString("c", CultureInfo.CreateSpecificCulture("ja-JP"))}");
 
 
